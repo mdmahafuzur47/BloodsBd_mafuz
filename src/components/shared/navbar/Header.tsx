@@ -1,10 +1,6 @@
-/* eslint-disable @next/next/no-img-element */
-import Button from "@/components/ui/Button";
-import Container from "@/components/ui/Container";
-
-const Navbar = () => {
+const Header = () => {
   return (
-    <header className="w-full relative container py-3 md:py-5 mx-auto">
+    <header className="w-full relative">
       <div className="w-full relative p-3 flex justify-between items-center container mx-auto ">
         <div className="hidden md:block text-2xl font-bold text-primary">
           BLOODSBD.COM
@@ -46,4 +42,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Header;
