@@ -2,32 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Custom Scrollbar Styles */
-::-webkit-scrollbar {
-  width: 5px;
-  height: 5px;
-}
-
-/* Custom Scrollbar Styles */
-::-webkit-scrollbar-thumb {
-  background: #f00; /* Red color for the scrollbar thumb */
-}
-
-.custom-arrow {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  cursor: pointer;
-  position: relative;
-  padding-right: 1rem; /* Adjust as needed */
-}
-
-.custom-arrow::after {
-  content: "\25B6"; /* Unicode for right arrow */
-  margin-left: 8px;
-  transition: transform 0.3s ease;
-}
-
-details[open] .custom-arrow::after {
-  transform: rotate(90deg); /* Rotate arrow down when open */
-}
