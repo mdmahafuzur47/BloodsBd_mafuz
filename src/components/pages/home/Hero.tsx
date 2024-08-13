@@ -7,7 +7,7 @@ const Hero = () => {
         {/* CTA */}
         <div className="w-full flex flex-col justify-center items-center gap-2">
           <Image
-            src={"/logo.png"}
+            src={"/images/logo.png"}
             width={300}
             height={300}
             className="w-40 md:w-60"
@@ -48,7 +48,7 @@ const Hero = () => {
         {/* image */}
         <div className="w-full px-3 2xl:px-16 pt-8">
           <Image
-            src={"/hero.png"}
+            src={"/images/hero.png"}
             width={400}
             height={500}
             alt="bloods bangladesh"
